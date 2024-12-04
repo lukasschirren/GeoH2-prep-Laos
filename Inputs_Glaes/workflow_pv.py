@@ -19,10 +19,6 @@ import pickle
 
 # Define country name (used for output filenames)
 country_names = ["Laos"] 
-                # ["Benin", "Cameroon", "Congo", "Côte d'Ivoire", "Eq. Guinea", "Eritrea", "Gabon", "Gambia", "Ghana",
-                #  "Guinea", "Guinea-Bissau", "Liberia", "Libya", "Madagascar", "Mauritius", "Mozambique", "Nigeria",
-                #  "Niger", "São Tomé and Principe", "Senegal", "Seychelles", "Sierra Leone", "Somalia", "Sudan",
-                #  "Tanzania", "Togo", "Tunisia"]
 
 # Record the starting time
 start_time = time.time()

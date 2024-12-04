@@ -19,10 +19,6 @@ import pickle
 
 # Define country name (used for output filenames)
 country_names = ["Laos"] 
-                # ["Benin", "Cameroon", "Congo", "Côte d'Ivoire", "Eq. Guinea", "Eritrea", "Gabon", "Gambia", "Ghana",
-                #  "Guinea", "Guinea-Bissau", "Liberia", "Libya", "Madagascar", "Mauritius", "Mozambique", "Nigeria",
-                #  "Niger", "São Tomé and Principe", "Senegal", "Seychelles", "Sierra Leone", "Somalia", "Sudan",
-                #  "Tanzania", "Togo", "Tunisia"]
 
 # Define turbine radius in meters for spacing
 # d = 150  # NREL_ReferenceTurbine_2020ATB_4MW - https://nrel.github.io/turbine-models/2020ATB_NREL_Reference_4MW_150.html
