@@ -2,6 +2,7 @@
 Raw_Spatial_Data/**
 Inputs_Glaes/data/**
 Inputs_Glaes/glaes
+Inputs_Glaes/processed
 Inputs_Spider/data/**
 Inputs_Spider/spider
 Inputs_GeoH2/Data/**
