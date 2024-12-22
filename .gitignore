@@ -5,6 +5,7 @@ Inputs_Glaes/glaes
 Inputs_Glaes/processed
 Inputs_Spider/data/**
 Inputs_Spider/spider
+Inputs_Spider/processed
 Inputs_GeoH2/Data/**
 exclude_slope_x.ipynb
 dem_con_asia.tif

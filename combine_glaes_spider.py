@@ -35,12 +35,14 @@ for country_name in country_names:
     country_name_clean = country_name_clean.replace(" ", "")
     country_name_clean = country_name_clean.replace(".", "")
     country_name_clean = country_name_clean.replace("'", "")
+    
+    scenario_year = "30"
 
     # Get paths
-    hex_path = os.path.join(dirname, "Inputs_Spider", "processed", f"{country_name_clean}_hex.geojson")
+    hex_path = os.path.join(dirname, "Inputs_Spider", "processed", f"{country_name_clean}_hex_{scenario_year}.geojson")
     wind_path = os.path.join(dirname, "Inputs_Glaes", "processed", f"{country_name}_turbine_placements.shp")
     pv_path = os.path.join(dirname, "Inputs_Glaes", "processed", f"{country_name}_pv_placements.shp")
-    save_path = os.path.join(dirname, "Inputs_GeoH2", "Data", f"{country_name_clean}_hex_final.geojson")
+    save_path = os.path.join(dirname, "Inputs_GeoH2", "Data", f"{country_name_clean}_hex_final_{scenario_year}.geojson")
 
     # Load all files and convert all to the country's CRS
     print(" - Loading files...")
