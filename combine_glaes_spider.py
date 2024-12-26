@@ -36,7 +36,7 @@ for country_name in country_names:
     country_name_clean = country_name_clean.replace(".", "")
     country_name_clean = country_name_clean.replace("'", "")
     
-    scenario_year = "30"
+    scenario_year = "25"
 
     # Get paths
     hex_path = os.path.join(dirname, "Inputs_Spider", "processed", f"{country_name_clean}_hex_{scenario_year}.geojson")
