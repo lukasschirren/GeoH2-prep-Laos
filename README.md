@@ -1,4 +1,4 @@
-# GeoH2-data-prep
+# GeoH2-data-prep with integrated hydropower
 Spatial data preparation tools for [GeoH2](https://github.com/ClimateCompatibleGrowth/GeoH2) users. 
 The GeoH2 library requires spatial hexagon files for the area of interest with several spatial parameters attached as an input. 
 These scripts are built to assist in creating these input data. 
