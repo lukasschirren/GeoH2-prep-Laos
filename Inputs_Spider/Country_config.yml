@@ -39,5 +39,5 @@ features:
   - name: hydro
     type: vector
     operation: sjoin
-    file: data/hydropower_dams.gpkg
-    joined_col: capacity
+    file: data/hydropower_dams_30.gpkg
+    joined_col: "Domestic Capacity (MW)"
