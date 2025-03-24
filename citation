@@ -1,1 +1,6 @@
-CITATION.cff
+cff-version: 1.2.0
+authors:
+- family-names: "Schirren"
+  given-names: "Lukas"
+title: "GeoH2-data-prep"
+version: 2.0.4
