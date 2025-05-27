@@ -1,3 +1,5 @@
+This work was partially funded by the Climate-Compatible Growth Programme (CCG). CCG is funded by UK aid from the UK government. However, the views expressed herein do not necessarily reflect the UK government's official policies
+
 # GeoH2-data-prep with integrated hydropower
 Spatial data preparation tools for [GeoH2](https://github.com/ClimateCompatibleGrowth/GeoH2) users. 
 The GeoH2 library requires spatial hexagon files for the area of interest with several spatial parameters attached as an input. 
